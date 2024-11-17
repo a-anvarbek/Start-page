@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: blue;
+    color: white;
+}
+header .parent .service{
+    list-style: none;
+    align-items: center;
+    display: flex;
+}
+header .parent .service li{
+    font-size: 20px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+header .parent .service li:hover{
+    color: red;
+}
+header .parent .about{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+header .parent .about li{
+    font-size: 20px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+header .parent .about li:hover{
+    color: red;
+}
+header .menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+}
+header .menu .logo li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+}
+header .menu .logo li:hover{
+    color: blue;
+}
+header .menu .page{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+header .menu .page li{
+    font-size: 20px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+header .menu .page li:hover{
+    color: blue;
+}
+.img{
+    background-color: rgb(195, 184, 184);
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 40px;
+}
+span{
+    color: blue;
+}
+.img img{
+    /* width: 600px;
+    height: auto; */
+    width:auto;
+    height: 600px;
+}

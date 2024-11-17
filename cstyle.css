@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkblue;
+}
+nav{
+    display: flex;
+    padding: 20px 220px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    gap: 15px;
+}
+nav div{
+    display: grid;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+}
+nav div h1{
+    align-items: center;
+    padding: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav div p{
+    align-items: center;
+    padding: 10px;
+    font-style: normal;
+    font-size: 15px;
+}
+section{
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    padding-top: 250px;
+}
+section div{
+    display: grid;
+    box-shadow: 5px 5px 5px 5px black;
+    width: 600px;
+    height: 480px;
+    text-align: center;
+    padding: 10px 100px 10px 100px;
+    background-color: aqua;
+    align-items: center;
+}
+section div h1{
+    font-size: 40px;
+    padding: 20px;
+    color: darkblue;
+}
+section div input{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+section div textarea{
+    font-size: 50px;
+}
+section div button{
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    border: 2px solid white;
+    color: darkblue;
+    padding: 10px;
+    background-color: darkturquoise;
+}
+i{
+    font-size: 50px;
+    padding: 10px;
+    color: darkturquoise;
+}

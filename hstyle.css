@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+header {
+    display: flex;
+    padding: 20px 100px;
+    background-color: blue;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+header .one,
+.two {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+  
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px; 
+}
+  
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px gray;
+}
+nav .logo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+  
+nav .logo h1 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+}
+  
+nav .logo span {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+  
+nav .menu {
+    display: flex;
+    list-style: none;
+}
+  
+nav .menu li {
+    font-size: 18px;
+    font-style: normal;
+    padding: 0px 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+  
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 100px;
+    background-image: url("./70374-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70vh;
+}
+  
+#banner div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: start;
+}
+  
+#banner div h1 {
+    font-size: 50px;
+}
+  
+#banner div span {
+    color: blue;
+}
+  
+#banner div a {
+    font-size: 20px;
+    font-weight: 600;
+}
+  
